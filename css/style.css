@@ -7,7 +7,7 @@ header{
     border-bottom: 2px solid #cccccc;
 }
 
-.brando{
+#brando{
     font-size: 24pt;
     text-align: center;
     color: #ffffff;
@@ -21,14 +21,54 @@ header{
     background-color: #ffffff;
     background: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    width:960px;
     margin-top: 20px;
     position: relative;
+    padding: 40px;
 
 }
 
 #profilepic{
     width: 200px;
-    padding: 0px 20px 0px 40px;
+    padding: 0px 20px 0px 0px;
     float: left;
+}
+
+.portfolio_pics{
+    width: 300px;
+    /* height: 225px; */
+    margin: 10px;
+}
+
+.port_tags{
+    position: relative;
+    bottom: 70px;
+    width: 300px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-weight: normal; */
+	text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+	z-index: 10;
+
+}
+
+footer{
+    clear: both;
+
+}
+
+#green-footer{
+    clear: both;
+    background-color: #4aaaa5;
+    height: 5px;
+    width: 100%;
+
+}
+
+#grey-footer{
+    clear: both;
+    background-color: #666666;
+    height: 20px;
+    width: 100%;
 }
