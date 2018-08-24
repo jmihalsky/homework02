@@ -1,3 +1,34 @@
-.body{
+body{
     background: url('../images/gravel.png');
+}
+
+header{
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+.brando{
+    font-size: 24pt;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 61px;
+    width: 240px;
+    padding: 6px;
+}
+
+.content{
+    background-color: #ffffff;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width:960px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+#profilepic{
+    width: 200px;
+    padding: 0px 20px 0px 40px;
+    float: left;
 }
