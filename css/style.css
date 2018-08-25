@@ -106,3 +106,21 @@ footer{
         width: 250px;
     }
 }
+
+@media screen and (max-width:320px)
+{
+    .portfolio_pics{
+        width: 250px;
+    }
+
+    .port_tags{
+        width: 250px;
+    }
+}
+
+/* @media screen and (max-width:823px) */
+/* { */
+    /* .port_tags{ */
+        /* margin: 10px; */
+    /* } */
+/* } */
