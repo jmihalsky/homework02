@@ -1,5 +1,6 @@
-body{
+html,body{
     background: url('../images/gravel.png');
+    position: relative;
 }
 
 header{
@@ -8,6 +9,7 @@ header{
 }
 
 #brando{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24pt;
     text-align: center;
     color: #ffffff;
@@ -17,6 +19,10 @@ header{
     padding: 6px;
 }
 
+.container2{
+    position: relative;
+    padding-bottom: 40px;
+}
 .content{
     background-color: #ffffff;
     background: #ffffff;
@@ -25,6 +31,12 @@ header{
     position: relative;
     padding: 40px;
 
+}
+
+.labeled{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
 }
 
 .card_content{
@@ -73,7 +85,7 @@ header{
 footer{
     clear: both;
     background-color: #666666;
-    position: relative;
+    position: absolute;
     bottom: 0;
     height: 40px;
     width: 100%;
