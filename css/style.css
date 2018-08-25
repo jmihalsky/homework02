@@ -27,6 +27,16 @@ header{
 
 }
 
+.card_content{
+    /* background-color: #ffffff; */
+    /* background: #ffffff; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    position: relative;
+    padding: 40px;
+
+}
+
 #profilepic{
     width: 200px;
     padding: 0px 20px 0px 0px;
@@ -53,8 +63,21 @@ header{
 
 }
 
+.social_icon {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
 footer{
     clear: both;
+    background-color: #666666;
+    position: relative;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    border-top: 10px solid #4aaaa5;
 
 }
 
@@ -71,4 +94,15 @@ footer{
     background-color: #666666;
     height: 20px;
     width: 100%;
+}
+
+@media screen and (max-width:375px)
+{
+    .portfolio_pics{
+        width: 250px;
+    }
+
+    .port_tags{
+        width: 250px;
+    }
 }
